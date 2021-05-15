@@ -52,7 +52,7 @@ else:
 
 
 # Arq Client
-arq = ARQ(ARQ_API)
+arq = ARQ(ARQ_API, "YCLZTK-LIFRNJ-VZNBYY-ISCQAN-ARQ")
 
 async def delete(message):
     await asyncio.sleep(10)
